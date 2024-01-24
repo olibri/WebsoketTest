@@ -40,3 +40,4 @@
 /home/debianus/prj/obj/Debug/net8.0/prj.csproj.AssemblyReference.cache
 /home/debianus/prj/obj/Debug/net8.0/prj.MvcApplicationPartsAssemblyInfo.cs
 /home/debianus/prj/obj/Debug/net8.0/prj.csproj.CopyComplete
+/home/debianus/prj/obj/Debug/net8.0/prj.sourcelink.json
