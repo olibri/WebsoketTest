@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "MebBC2IhoPQz2bsXPCMATeqiMOfu0Xo06Dkd+EBHzi2j7oqbuiHzVIMwm4AZw/+IMPZDXjlz08q51uRKq7qeGQ==",
+  "success": true,
+  "projectFilePath": "/home/debianus/prj/prj.csproj",
+  "expectedPackageFiles": [
+    "/home/debianus/.nuget/packages/messagepack/2.5.140/messagepack.2.5.140.nupkg.sha512",
+    "/home/debianus/.nuget/packages/messagepack.annotations/2.5.140/messagepack.annotations.2.5.140.nupkg.sha512",
+    "/home/debianus/.nuget/packages/messagepack.aspnetcoremvcformatter/2.5.140/messagepack.aspnetcoremvcformatter.2.5.140.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.aspnetcore.connections.abstractions/8.0.1/microsoft.aspnetcore.connections.abstractions.8.0.1.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.aspnetcore.signalr.common/8.0.1/microsoft.aspnetcore.signalr.common.8.0.1.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.aspnetcore.signalr.protocols.messagepack/8.0.1/microsoft.aspnetcore.signalr.protocols.messagepack.8.0.1.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.extensions.features/8.0.1/microsoft.extensions.features.8.0.1.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.extensions.options/8.0.1/microsoft.extensions.options.8.0.1.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/debianus/.nuget/packages/microsoft.net.stringtools/17.6.3/microsoft.net.stringtools.17.6.3.nupkg.sha512",
+    "/home/debianus/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/home/debianus/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

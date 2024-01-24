@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>WebSocket Chat</h2>
+
+<div id="chatWindow"></div>
+<input type="text" id="messageInput" />
+<button onclick="sendMessage()">Send</button>
+
+<script type="text/javascript">
+    var wsUri = "ws://localhost:5159/ws";
+    var websocket = new WebSocket(wsUri);
+
+    websocket.onopen = function(evt) {
+        writeToChat("Connected to WebSocket");
+    };
+
+    websocket.onmessage = function(evt) {
+        writeToChat('Received: ' + evt.data);
+    };
+
+    websocket.onerror = function(evt) {
+        writeToChat("WebSocket Error: " + evt.data);
+    };
+
+    function sendMessage() {
+        var message = document.getElementById("messageInput").value;
+        websocket.send(message);
+        writeToChat("Sent: " + message);
+        document.getElementById("messageInput").value = "";
+    }
+
+    function writeToChat(message) {
+        var chatWindow = document.getElementById("chatWindow");
+        chatWindow.innerHTML += message + '<br />';
+    }
+</script>
